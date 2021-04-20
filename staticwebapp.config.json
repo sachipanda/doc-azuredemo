@@ -9,7 +9,7 @@
       "allowedRoles": ["authenticated"]
     },
      {
-      "route": "/blog",
+      "route": "/blog/*",
       "allowedRoles": ["authenticated"]
     },
     
