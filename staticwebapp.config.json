@@ -4,6 +4,15 @@
       "route": "/",
       "allowedRoles": ["authenticated"]
     },
+     {
+      "route": "/docs",
+      "allowedRoles": ["authenticated"]
+    },
+     {
+      "route": "/blog",
+      "allowedRoles": ["authenticated"]
+    },
+    
     {
       "route": "/admin/*",
       "allowedRoles": ["administrator"]
